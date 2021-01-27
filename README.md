@@ -15,5 +15,6 @@ The boy will travel across the  country to find his kite.
 * On start game transition from start screen background into game seamlessly
 * Intro cut scene, waking up, something is missing.
 * Particle effects, sandstorm
-* Parallax Scrolling
+* Parallax Scrolling background
 * End scene, meeting the missing thing
+* Rope and Kite
