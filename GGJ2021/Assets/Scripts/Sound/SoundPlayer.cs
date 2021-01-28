@@ -6,7 +6,7 @@ namespace Sound
     {
         private void Start()
         {
-            Play("Memories");
+            Play("Adventure");
         }
 
         void Play(string sound)

@@ -680,6 +680,18 @@ MonoBehaviour:
     volume: 0.5
     pitch: 1
     source: {fileID: 0}
+  - name: Adventure
+    clip: {fileID: 8300000, guid: 536d4b93fcc306442abb62a9baea393b, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Tomorrow
+    clip: {fileID: 8300000, guid: 917f7839f2caa334bb62b45ffd0379c8, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
   unmuteOnFocus: 1
   isMuted: 0
   masterVolumeMultiplier: 2.17
