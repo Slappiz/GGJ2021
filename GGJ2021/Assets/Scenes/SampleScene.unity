@@ -166,9 +166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _priority: 1
   _isLocked: 0
-  _isDefault: 0
+  _isDefault: 1
   _isPassive: 0
-  _animationState: Run
+  _animationState: Move
   _inputString: Move
   _movementSpeed: 4
   _acceleration: 0.1
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _priority: 2
   _isLocked: 0
-  _isDefault: 0
+  _isDefault: 1
   _isPassive: 0
   _animationState: 
   _inputString: Jump
@@ -291,7 +291,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 409619568}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 304570daa7788ae40ab432e9e39994b6, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _priority: -1
   _isLocked: 0
-  _isDefault: 0
+  _isDefault: 1
   _isPassive: 1
   _animationState: 
   _inputString: Move
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _priority: -1
   _isLocked: 0
-  _isDefault: 0
+  _isDefault: 1
   _isPassive: 1
   _animationState: 
   _inputString: Move
@@ -898,8 +898,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 8598911646308356358, guid: ba4a23cdc311ae148bd918ce326a6fa2,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 983f4e2556d6cec449570cef2914536b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -979,9 +978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f61d3b5a6f44d1c96af64388d1c6f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _priority: -1
+  _priority: 0
   _isLocked: 0
   _isDefault: 1
-  _isPassive: 1
+  _isPassive: 0
   _animationState: Idle
   _inputString: Idle

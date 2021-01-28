@@ -122,7 +122,7 @@ namespace Controller
         
         public void UpdateInactiveModules()
         {
-            //_animationHandler.SetAnimation(_currentlyUsedModule);
+            _animationHandler.SetAnimation(_currentlyUsedModule);
             foreach (var module in _modules)
             {
                 module.UpdateInactiveModules();
