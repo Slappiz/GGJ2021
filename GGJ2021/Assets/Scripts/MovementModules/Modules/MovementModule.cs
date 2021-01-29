@@ -109,12 +109,12 @@ namespace Controller
         {
             if (_characterController == null)
             {
-                Debug.LogError("Character controller not found for " + Name + "!");
+                Debug.LogError("Character controller not found for " + Name + "," + _inputString +  "!");
                 return null;
             }
             if (_characterController.GetPlayerInput() == null)
             {
-                //Debug.LogError("Player input not found for " + Name + "!");
+                Debug.LogError("Player input not found for " + Name + "," + _inputString + "!");
                 return null;
             }
 

@@ -233,7 +233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &333600745
 Transform:
   m_ObjectHideFlags: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
     HorizontalAxisName: 
     VerticalAxisName: 
     DirectionThreshold: 0
-    IsFoldingOut: 0
+    IsFoldingOut: 1
 --- !u!114 &409619573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &614978999
 Transform:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &692213533
 Transform:
   m_ObjectHideFlags: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   _isDefault: 1
   _isPassive: 0
   _animationState: Idle
-  _inputString: Idle
+  _inputString: Move
 --- !u!1 &2132618899
 GameObject:
   m_ObjectHideFlags: 0

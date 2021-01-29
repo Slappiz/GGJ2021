@@ -21,7 +21,7 @@ namespace Controller
         private void Awake()
         {
             _overlapDetection = GetComponent<OverlapDetection>();
-            _playerInput = null; // GetComponent<PlayerInput>();
+            _playerInput = GetComponent<PlayerInput>();
         }
 
         private void Update()

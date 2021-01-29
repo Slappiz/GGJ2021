@@ -13,7 +13,7 @@ namespace Controller
         protected override void Clear() { }
         protected override bool Applicable()
         {
-            if (!_overlapDetection.OnGround && GetDirectionInput("Move").RawInput != Vector2.zero)
+            if (!_overlapDetection.OnGround && GetDirectionInput(_inputString).RawInput != Vector2.zero)
             {
                 return true;
             }
