@@ -4,9 +4,10 @@ namespace Sound
 {
     public class SoundPlayer : MonoBehaviour
     {
+        public string StartSong = "";
         private void Start()
         {
-            Play("Adventure");
+            Play(StartSong);
         }
 
         void Play(string sound)
