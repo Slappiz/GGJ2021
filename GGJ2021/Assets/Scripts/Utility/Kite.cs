@@ -7,10 +7,10 @@ using UnityEngine;
 public class Kite : MonoBehaviour
 {
     [SerializeField] private Transform _target = null;
-    
+    [SerializeField] private Vector3 _offset;
 
     private void Update()
     {
-
+        
     }
 }

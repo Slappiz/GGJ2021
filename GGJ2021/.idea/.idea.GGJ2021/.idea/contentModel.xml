@@ -94,6 +94,7 @@
             <e p="Modules" t="Include">
               <e p="AirControlModule.cs" t="Include" />
               <e p="BetterJumpingModule.cs" t="Include" />
+              <e p="DashModule.cs" t="Include" />
               <e p="IdleModule.cs" t="Include" />
               <e p="JumpModule.cs" t="Include" />
               <e p="ModuleAnimationHandler.cs" t="Include" />
