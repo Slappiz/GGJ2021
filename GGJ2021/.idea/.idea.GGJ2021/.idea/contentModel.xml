@@ -114,7 +114,9 @@
             <e p="Decoration.cs" t="Include" />
             <e p="DecorationManager.cs" t="Include" />
             <e p="DecorationMover.cs" t="Include" />
+            <e p="GameEvents.cs" t="Include" />
             <e p="Kite.cs" t="Include" />
+            <e p="Storm.cs" t="Include" />
           </e>
         </e>
       </e>

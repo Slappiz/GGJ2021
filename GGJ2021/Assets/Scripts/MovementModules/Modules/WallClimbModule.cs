@@ -36,11 +36,11 @@ namespace Controller
             
             if (_overlapDetection.OnWallLeft)
             {
-                _direction = Direction.Right;
+                _direction = Direction.Left;
             }
             else
             {
-                _direction = Direction.Left;
+                _direction = Direction.Right;
             }
 
             if (_characterController.GetInputMovement() == Vector2.zero)

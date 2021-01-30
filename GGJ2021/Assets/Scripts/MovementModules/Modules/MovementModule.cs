@@ -82,6 +82,7 @@ namespace Controller
             _characterController = GetComponentInParent<CharacterController>();
             
             _moduleManager.AddModule(this);
+            _gravityScale = _rigidbody2D.gravityScale;
         }
 
         ///<inheritdoc/>
