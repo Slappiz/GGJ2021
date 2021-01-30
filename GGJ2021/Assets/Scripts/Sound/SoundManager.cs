@@ -12,6 +12,15 @@ namespace Sound
         public bool unmuteOnFocus = true; 
         public bool isMuted = false;
         public float masterVolumeMultiplier = 1f;
+
+        public float MasterVolumeMultiplier
+        {
+            set
+            {
+                masterVolumeMultiplier = value;
+                MasterVolume();
+            }
+        }
         void Awake()
         {
             if(instance == null) instance =  this;

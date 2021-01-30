@@ -24,6 +24,20 @@ namespace Controller
         [SerializeField] protected string _animationState = "";
         [SerializeField] protected string _inputString = "Move";
 
+        
+        private float _gravityScale = 0f;
+        protected void UseGravity(bool active)
+        {
+            if (!active)
+            {
+                _rigidbody2D.gravityScale = 0;
+            }
+            else
+            {
+                _rigidbody2D.gravityScale = _gravityScale;
+            }
+        }
+        
         ///<inheritdoc/>
         public bool Enabled
         {
@@ -103,6 +117,7 @@ namespace Controller
         ///Query whether this module can be ended without bad results (clipping etc.)
         /// </summary>
         public virtual void UpdateInactiveModules() { }
+        
         
         //Called from within modules to get a directional input by name
         protected DirectionInput GetDirectionInput(string name)
