@@ -11,7 +11,7 @@ namespace Sound
             Play(StartSong);
         }
 
-        void Play(string sound)
+        public void Play(string sound)
         {
             SoundManager.instance.Play(sound);
             SoundManager.instance.masterVolumeMultiplier = MasterVolume;

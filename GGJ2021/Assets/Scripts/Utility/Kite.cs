@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using Sound;
 using UnityEngine;
 
 public class Kite : MonoBehaviour
@@ -24,6 +25,8 @@ public class Kite : MonoBehaviour
             objective1.SetActive(false);
             objective2.SetActive(true);
             ChildTriggerCollider.enabled = true;
+            SoundManager.instance.Stop("Memories");
+            SoundManager.instance.Play("Adventure");
             Destroy(this.gameObject);
         }
     }
