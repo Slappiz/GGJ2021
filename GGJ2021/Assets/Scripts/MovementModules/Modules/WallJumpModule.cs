@@ -33,7 +33,7 @@ namespace Controller
 
         protected override void Init()
         {
-            _rigidbody2D.gravityScale = 0;
+            UseGravity(false);
             _isWallJumping = true;
             _characterController.LockMovement(true);
             _wallDirection = _overlapDetection.OnWallRight ? Vector2.left : Vector2.right;
@@ -43,7 +43,7 @@ namespace Controller
 
         protected override void Clear()
         {
-            _rigidbody2D.gravityScale = 3;
+            UseGravity(true);
         }
 
         public override void FixedUpdateModule()

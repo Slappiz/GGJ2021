@@ -39,7 +39,7 @@ namespace Controller
             return null;
         }
         
-        void SetNewModule(IModule module)
+        public void SetNewModule(IModule module)
         {
             if (module == _currentlyUsedModule)
             {

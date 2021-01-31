@@ -40,6 +40,8 @@ namespace Controller
         public void LockMovement(bool lockInput)
         {
             _movementLocked = lockInput;
+            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            GetComponentInChildren<Animator>().Play("Idle");
         }
         public bool IsMovementLocked()
         {

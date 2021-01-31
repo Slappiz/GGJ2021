@@ -6,11 +6,25 @@ using UnityEngine;
 
 public class Kite : MonoBehaviour
 {
-    [SerializeField] private Transform _target = null;
-    [SerializeField] private Vector3 _offset;
+    [SerializeField] private GameObject _target = null;
+    [SerializeField] private GameObject objective1 = null;
+    [SerializeField] private GameObject objective2 = null;
+    [SerializeField] private BoxCollider2D ChildTriggerCollider = null;
 
-    private void Update()
+    private void Awake()
     {
-        
+        ChildTriggerCollider.enabled = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            _target.SetActive(true);
+            objective1.SetActive(false);
+            objective2.SetActive(true);
+            ChildTriggerCollider.enabled = true;
+            Destroy(this.gameObject);
+        }
     }
 }

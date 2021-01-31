@@ -112,12 +112,16 @@
             <e p="SoundPlayer.cs" t="Include" />
           </e>
           <e p="Utility" t="Include">
+            <e p="Bird.cs" t="Include" />
+            <e p="Child.cs" t="Include" />
             <e p="Decoration.cs" t="Include" />
             <e p="DecorationManager.cs" t="Include" />
             <e p="DecorationMover.cs" t="Include" />
             <e p="GameEvents.cs" t="Include" />
             <e p="Kite.cs" t="Include" />
+            <e p="PauseMovement.cs" t="Include" />
             <e p="Storm.cs" t="Include" />
+            <e p="Tutorial.cs" t="Include" />
           </e>
         </e>
       </e>
